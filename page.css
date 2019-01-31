@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: 'EB Garamond', serif;
+}
+#b1 {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+
+.imgAvatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.title {
+    border-bottom: 2px solid transparent;
+    color: #c9aa71;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 .85em;
+    overflow: hidden;
+    padding-top: 2px;
+    text-transform: uppercase;
+    transition: color 1s cubic-bezier(.06,.81,0,.98);
+}
+
+#content {
+    display: flex;
+    flex-flow: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+
+.eachChampion {
+    padding: 5px;
+    transition: all .2s;
+    border: #c9aa71 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.eachChampion:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.nameChampion { 
+    color: #c9aa71;
+    text-align: center;
+}
